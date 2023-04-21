@@ -6,14 +6,12 @@ var whosTurn = "X";
 
 gameBoard.addEventListener("click", function (event) {
     var box = event.target;
-    if (box.textContent === ""){
-        box.textContent = whosTurn;
-        if (whosTurn === "X"){
+    if (box.textContent === "" && whosTurn === "X"){
+        box.textContent = "X";
             whosTurn = "O"
-        }else {
+    }else {
+            box.textContent = "O";
             whosTurn = "X"
         }
-    }
 });
-
 
