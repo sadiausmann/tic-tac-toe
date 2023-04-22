@@ -101,5 +101,8 @@ result();
 restartButton.addEventListener("click", function() {
     for (var i = 0; i < boxes.length; i++ ){
         boxes[i].textContent = ""
+        gameOn = 0;
+        displayResult.textContent = ""
+        h3.textContent = ""
     }
 });
