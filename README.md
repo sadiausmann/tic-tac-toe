@@ -9,6 +9,7 @@
 - Talk about approach to the problem.
 - Add screenshots/drawings of doodles/plans during the planning phase.
 - Flow charts of app logic.
+(https://raw.githubusercontent.com/sadiausmann/tic-tac-toe/main/tic%20tac%20toe%20flow%20chart.png)
 ![project.png]
 ## :rocket: Cool tech
 - Programming languages: Javascript, HTML and CSS
