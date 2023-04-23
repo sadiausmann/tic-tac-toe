@@ -1,84 +1,86 @@
-* {padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    display: grid;
-    grid-template-rows: 1fr 1fr 3fr ; 
-    font-family: 'Shantell Sans', cursive;
-    justify-content:center;
-    gap: 0;
-    color: aqua;
-    background-color: black;
+  display: grid;
+  grid-template-rows: 1fr 1fr 3fr;
+  font-family: "Shantell Sans", cursive;
+  justify-content: center;
+  gap: 0;
+  color: aqua;
+  background-color: black;
 }
 
-
 header {
-    font-size: 3rem;
-    padding-top:1em;
+  font-size: 3rem;
+  padding-top: 1em;
 }
 
 article {
-    justify-content: center;
-    height:fit-content;
+  justify-content: center;
+  height: fit-content;
 }
 
-h2, h3 {
-    font-size: 2rem;
-    width: 100%;
-    height: 2em;
-    text-align: center;
-    padding-top: 1em;  
+h2,
+h3 {
+  font-size: 2rem;
+  width: 100%;
+  height: 2em;
+  text-align: center;
+  padding-top: 1em;
+  
 }
 
 main {
-    display: grid;
-    flex-direction:column;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-}   
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
 
 .gameBoard {
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr  ;
-    grid-template-rows: 1fr 1fr 1fr  ;
-    gap : "0";  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: "0";
 }
 
 div {
-    border-top: 8px solid lightblue;
-    border-right: 8px solid lightblue;
-    text-align: center;
-    width: 150px;
-    height: 150px;
-    font-size: 5em;
-    line-height: 150px;
-    color:orange;
-    
+  border-top: 8px solid lightblue;
+  border-right: 8px solid lightblue;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  font-size: 5em;
+  line-height: 150px;
+  color: orange;
 }
 
 button {
-    margin-top: 2rem;
-    width: 15em;
-    height: 7em;
-    justify-self: center;
-    background-color: aqua;
-    color: rgb(8, 68, 68);
-    font-family: 'Shantell Sans', cursive;
-    width: 200px;
-    height: 100px;
-    font-size: 3em;
-    line-height: 75px;
- 
-    
+  margin-top: 2rem;
+  justify-self: center;
+  background-color: aqua;
+  color: rgb(8, 68, 68);
+  font-family: "Shantell Sans", cursive;
+  width: 200px;
+  height: 100px;
+  font-size: 3em;
+  line-height: 75px;
 }
 
-.zero, .one, .two {
-    border-top: 0px;
-} 
-
-.two, .five, .eight{
-    border-right: 0px;
+.zero,
+.one,
+.two {
+  border-top: 0px;
 }
+
+.two,
+.five,
+.eight {
+  border-right: 0px;
+}
+
 
