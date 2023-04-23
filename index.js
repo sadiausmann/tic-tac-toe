@@ -7,7 +7,6 @@ var restartButton = document.querySelector("button");
 var whosTurn = "X";
 var gameOn = 0;
 
-
 function result() {
   if (
     (boxes[0].textContent === "X" &&
@@ -81,28 +80,29 @@ function result() {
   }
 }
 
-
 gameBoard.addEventListener("click", function (event) {
-    var box = event.target;
-    if (box.tagName === "DIV" && gameOn === 0) {
-        if (box.textContent === "" && whosTurn === "X") {
-        box.textContent = "X";
-        whosTurn = "O";
-        } else if (box.textContent !== "X" && whosTurn === "O") {
-        box.textContent = "O";
-        whosTurn = "X";
-        }
-    }else if (box.tagName === "DIV" && gameOn !== "0") {
-    h3.textContent = "Click on Restart to play again."
-}
-result();
+  var box = event.target;
+  if (box.tagName === "DIV" && gameOn === 0) {
+    if (box.textContent === "" && whosTurn === "X") {
+      box.textContent = "X";
+      whosTurn = "O";
+    } else if (box.textContent !== "X" && whosTurn === "O") {
+      box.textContent = "O";
+      whosTurn = "X";
+    }
+  } else if (box.tagName === "DIV" && gameOn !== "0") {
+    h3.textContent = "Click on Restart to play again.";
+  }
+  result();
 });
 
-restartButton.addEventListener("click", function() {
-    for (var i = 0; i < boxes.length; i++ ){
-        boxes[i].textContent = ""
-        gameOn = 0;
-        displayResult.textContent = ""
-        h3.textContent = ""
+restartButton.addEventListener("click", function () {
+  if (gameOn !== 0) {
+    for (var i = 0; i < boxes.length; i++) {
+      boxes[i].textContent = "";
+      gameOn = 0;
+      displayResult.textContent = "";
+      h3.textContent = "";
     }
+  }
 });
