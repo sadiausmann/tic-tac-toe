@@ -1,5 +1,5 @@
 # Tic-Tac-Toe
-This is a simple Tic Tac Toe game built using JavaScript, HTML, and CSS. It allows two players to play the game on a single screen. The game includes a reset button to start a new game and displays the winner at the end of the game.
+This is a simple Tic Tac Toe game built using JavaScript, HTML, and CSS. It allows two players to play the game on a single screen. The game includes a reset button to start a new game and displays the winner at the end of the game
 
 ## :computer: [Click here](https://sadiausmann.github.io/tic-tac-toe/) to see my live project!
 ## :page_facing_up: About
