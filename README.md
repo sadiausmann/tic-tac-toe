@@ -18,7 +18,7 @@ This is a simple Tic Tac Toe game built using JavaScript, HTML, and CSS. It allo
 
 I started by planning the logic through flow chart.
 
-![project.png](https://github.com/sadiausmann/tic-tac-toe/blob/main/Snip_TEMP0001-1.png)
+![project.png](https://raw.githubusercontent.com/sadiausmann/tic-tac-toe/main/tic%20tac%20toe%20flow%20chart.png)
 
 - Gave basic structure to the web page with HTML and styled it with CSS.
 - In javascript,  started with defining few variables like boxes, box , gameBoard and whosTurn. Created the main logic of the game. 
