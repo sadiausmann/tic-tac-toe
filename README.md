@@ -3,8 +3,8 @@ This is a simple Tic Tac Toe game built using JavaScript, HTML, and CSS. It allo
 
 ## :computer: [Click here](https://sadiausmann.github.io/tic-tac-toe/) to see my live project!
 ## :page_facing_up: About
-![project.png]https://github.com/sadiausmann/tic-tac-toe/blob/main/Snip_TEMP0001-1.png?raw=true
-![project.png]https://github.com/sadiausmann/tic-tac-toe/blob/main/Snip_TEMP0001-2.png?raw=true
+![project.png](https://github.com/sadiausmann/tic-tac-toe/blob/main/Snip_TEMP0001-1.png)
+![project.png](https://github.com/sadiausmann/tic-tac-toe/blob/main/Snip_TEMP0001-2.png)
 
 - Two players game.
 - Game starts when player clicks on a box of the Tic Tac Toe board to make their move.
@@ -18,7 +18,7 @@ This is a simple Tic Tac Toe game built using JavaScript, HTML, and CSS. It allo
 
 I started by planning the logic through flow chart.
 
-![project.png] https://github.com/sadiausmann/tic-tac-toe/blob/main/Snip_TEMP0001-1.png?raw=true
+![project.png](https://github.com/sadiausmann/tic-tac-toe/blob/main/Snip_TEMP0001-1.png)
 
 - Gave basic structure to the web page with HTML and styled it with CSS.
 - In javascript,  started with defining few variables like boxes, box , gameBoard and whosTurn. Created the main logic of the game. 
